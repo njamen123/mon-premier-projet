@@ -42,6 +42,46 @@
                 </div>
             </div>
         </section>
+
+        <!-- SECTION RÉSERVATION -->
+<section class="reservation">
+    <h2>Réserver maintenant</h2>
+    
+    <div class="formulaire">
+        <div>
+            <label>Nom complet :</label>
+            <input type="text" id="nom" placeholder="Votre nom">
+        </div>
+        
+        <div>
+            <label>Email :</label>
+            <input type="email" id="email" placeholder="votre@email.com">
+        </div>
+        
+        <div>
+            <label>Nombre de nuits :</label>
+            <input type="number" id="nuits" min="1" value="1">
+        </div>
+        
+        <div>
+            <label>Prix par nuit (€) :</label>
+            <select id="prixNuit">
+                <option value="90">Classique - 90€</option>
+                <option value="150">Deluxe - 150€</option>
+                <option value="250">Prestige - 250€</option>
+            </select>
+        </div>
+        
+        <div class="total">
+            <strong>Total : <span id="prixTotal">90 €</span></strong>
+        </div>
+        
+        <button onclick="reserver()" class="btn-reserver">Réserver</button>
+        <button onclick="changerTheme()" class="btn-theme">Changer thème</button>
+    </div>
+    
+    <div id="dateDuJour" class="date"></div>
+</section>
     </main>
     
     <footer>
