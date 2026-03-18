@@ -81,7 +81,7 @@ footer {
     width: 100%;
 }
 /* SECTION RÉSERVATION */
-.reservation {
+.avis {
     background-color: white;
     padding: 2em;
     border-radius: 8px;
@@ -217,4 +217,8 @@ footer {
 
 .btn-exporter:hover {
     background-color: #2ecc71;
+}
+.avis-carte {
+    background-color: #f9f9f9;
+    font-style: italic;
 }
