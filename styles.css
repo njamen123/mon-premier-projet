@@ -154,3 +154,67 @@ footer {
     color: #666;
     font-style: italic;
 }
+
+/* SECTION ADMIN */
+.admin {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    margin-top: 2em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.liste-reservations {
+    list-style: none;
+    padding: 0;
+}
+
+.reservation-item {
+    background-color: #f9f9f9;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border-left: 4px solid #2c3e50;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reservation-item small {
+    color: #666;
+}
+
+.btn-supprimer {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.btn-supprimer:hover {
+    opacity: 1;
+}
+
+.aucune {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+}
+
+.btn-exporter {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.btn-exporter:hover {
+    background-color: #2ecc71;
+}
